@@ -1,9 +1,16 @@
 import React from 'react'
-import './header.css'
+import CTA from './CTA'
 
 function Header() {
     return (
-        <div>Header</div>
+        <header>
+            <div className="container header__container">
+                <h5> Hey Ya'll, my name is</h5>
+                <h1>Rayito Aguirre</h1>
+                <h5 className='text-dark'>Full-Stack Developer</h5>
+                <CTA />
+            </div>
+        </header>
     )
 }
 
