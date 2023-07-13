@@ -23,7 +23,7 @@ header {
 }
 
 .header__socials::after {
-    content: '';
+    content: "";
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
@@ -31,7 +31,7 @@ header {
 
 /* --------- Me photo ---------- */
 .me {
-    background: var(--color-primary);
+    background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 50rem;
     position: absolute;
@@ -43,11 +43,35 @@ header {
 }
 
 /* --------- scroll up --------- */
-scroll__down {
+scroll__up {
     position: absolute;
     right: -2.3rem;
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 200;
-    font-size: 3rem;
+    font-size: 2rem;
+}
+
+/* --------- media query medium --------- */
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+
+    .header__socials,
+    .scroll__up {
+        font-size: 1.4rem;
+    }
+}
+
+/* --------- media query small ---------- */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .header__socials,
+    .scroll__up {
+        display: none;
+    }
 }

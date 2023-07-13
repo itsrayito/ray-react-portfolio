@@ -17,7 +17,7 @@ function Header() {
                     <img src={Me} alt='Rayito Aguirre'/>
                 </div>
 
-                <a href="#header" className='scroll__down'> &#60;</a>
+                <a href="#header" className='scroll__up'> Scroll Up </a>
             </div>
         </header>
     )
