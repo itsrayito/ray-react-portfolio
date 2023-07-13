@@ -10,9 +10,9 @@
   }
   
   :root {
-    --color-bg: #F3DE8A;
+    --color-bg: #EAEFBD;
     --color-bg-variant: #7E7F9A;
-    --color-primary: #CAE7B9;
+    --color-primary: #4C6663;
     --color-primary-variant: rgba(28, 42, 45, 0.23);
     --color-white: #37371F;
     --color-light: rgba(255,255,255,0.6);
@@ -36,7 +36,7 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/grunge.png)
+  background-image: url()
 }
 
 /* -------- general styling ----------- */
