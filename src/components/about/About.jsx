@@ -46,7 +46,7 @@ function About() {
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
 
-                    <a href="#contact" className="btn btn-primary">
+                        <a href="#contact" className="btn btn-primary about__btn">
                         Connect
                     </a>
                 </div>
@@ -55,4 +55,4 @@ function About() {
     );
 }
 
-export default About
+export default About;
