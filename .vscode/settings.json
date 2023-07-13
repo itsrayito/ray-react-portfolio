@@ -1,0 +1,4 @@
+{
+    "prettier.useTabs": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true
+}
