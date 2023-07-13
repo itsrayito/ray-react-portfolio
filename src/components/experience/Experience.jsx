@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 import './experience.css'
 
 function Experience() {
     return (
-        <div>Experience</div>
+        <section id='experience'>Experience</section>
     )
 }
 
