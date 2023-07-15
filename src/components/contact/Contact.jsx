@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.css";
 import { HiOutlineMail } from "react-icons/hi";
-import { FiLinkedin, Linkedin } from "react-icons/fi";
+import { FiLinkedin, FiGithub } from "react-icons/fi";
 
 function Contact() {
     return (
@@ -27,6 +27,17 @@ function Contact() {
                         classname=""
                         >
                             Let's Connect!
+                        </a>
+                    </article>
+                    <article className="contact__option">
+                        <FiGithub className="contact__option-icon"/>
+                        <h4>GitHub</h4>
+                        <a
+                        href="https://www.github.com/itsrayito"
+                        target="_blank"
+                        className=""
+                        >
+                            My Projects
                         </a>
                     </article>
                 </div>
