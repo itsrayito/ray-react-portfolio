@@ -10,12 +10,12 @@
   }
   
   :root {
-    --color-bg: #EAEFBD;
-    --color-nav: rgba(0, 0, 0, 0.3);
+    --color-bg: #0D0D07;
+    --color-nav: rgba(76, 102, 99, 0.98);
     --color-bg-variant: #7E7F9A;
     --color-primary: #4C6663;
-    --color-primary-variant: rgba(28, 42, 45, 0.23);
-    --color-white: #37371F;
+    --color-primary-variant: rgba(164, 225, 238, 0.23);
+    --color-white: #e5e5a3;
     --color-light: rgba(255,255,255,0.6);
     --transition: all 400ms ease;
   

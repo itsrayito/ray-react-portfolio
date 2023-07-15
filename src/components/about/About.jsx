@@ -39,11 +39,19 @@ function About() {
                         </article>
                     </div>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  <br></br>
+                  <center>Hey Ya'll, and welcome to my portfolio! My name is Rayito Aguirre, or just call me Ray for short.<br></br>
+                  I am a current student at Rice University's Coding Bootcamp in partnership with edX, finishing August 2023.
+                  I graduated from the University of Houston- Downtown with a Bachelor's of Science in Criminal Justice. 
+                  Software Develpment has always intrigued me, so I decided to finally learn it in depth and actually learn how
+                  all things go together to create amazing things.
+                  <br></br>
+                  I am committed to continuous learning, keeping up with industry trends, and applying 
+                  innovative technologies to enhance user experiences.
+                  I am also looking up to contributing to impactful projects and grow as a professional 
+                  in a dynamic and supportive environment. <br></br>
+                  P.S. I love The Mandalorian.
+                  </center>
                     </p>
 
                         <a href="#contact" className="btn btn-primary about__btn">
