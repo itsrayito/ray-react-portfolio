@@ -48,13 +48,19 @@ function Contact() {
                     <input
                     type="text"
                     name="name"
-                    placeholder="First Name Last Name"
+                    placeholder="First & Last Name"
+                    required
+                    />
+                    <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter your Email Address"
                     required
                     />
                     <textarea
                     name="message"
                     rows="7"
-                    placeholder="Your Message"
+                    placeholder="Your Message goes here"
                     required
                     ></textarea>
                     <button type="submit" id="contact__btn" className="btn btn-primary">

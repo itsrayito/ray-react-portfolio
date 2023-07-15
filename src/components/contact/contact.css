@@ -52,6 +52,14 @@
         color: var(--color-primary);
     }
 
+    textarea {
+        padding-bottom: 6.5rem;
+    }
+
+    textarea::placeholder {
+        font-family: sans-serif;
+    }
+
     /* ------ media query medium size ----- */
     @media screen and (max-width: 1024px) {
         .container.contact__container {
@@ -68,8 +76,5 @@
             grid-template-columns: 1fr;
         }
 
-        #contact__btn {
-            margin: 0 auto;
-        }
     }
 }
