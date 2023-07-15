@@ -14,10 +14,19 @@ header {
 .cta {
     margin-top: 2.5rem;
     display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+}
+
+/* ------ section for the Header Socials ------ */
+
+.header__socials {
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
     position: absolute;
+    left: 2.5rem;
     bottom: 3rem;
     font-size: 2rem;
 }
@@ -29,7 +38,7 @@ header {
     background: var(--color-primary);
 }
 
-/* --------- Me photo ---------- */
+/* --------- photo of myself ---------- */
 .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
@@ -42,8 +51,8 @@ header {
     padding: 1rem 5.2rem;
 }
 
-/* --------- scroll up --------- */
-scroll__up {
+/* --------- scroll down --------- */
+scroll__down {
     position: absolute;
     right: -2.3rem;
     bottom: 5rem;
@@ -59,19 +68,27 @@ scroll__up {
     }
 
     .header__socials,
-    .scroll__up {
+    .scroll__down {
+        bottom: 21vh;
+    }
+
+    .header__socials,
+    .scroll__down {
         font-size: 1.4rem;
     }
 }
 
 /* --------- media query small ---------- */
 @media screen and (max-width: 600px) {
-    header {
-        height: 100vh;
-    }
-
     .header__socials,
-    .scroll__up {
+    .scroll__down {
         display: none;
+    }
+}
+
+/* ------- media query extra-small -------- */
+@media screen and (max-width: 400px) {
+    .me {
+        width: auto;
     }
 }
