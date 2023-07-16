@@ -32,7 +32,7 @@ function Services() {
                 {/* section for service 2 */}
                 <article className='service'>
                     <div className="service__head">
-                        <h3>Full Stack Web Development Cont.</h3>
+                        <h3>Full-Stack Web Development Cont.</h3>
                     </div>
 
                     <ul className='service__list'>
