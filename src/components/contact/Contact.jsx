@@ -43,7 +43,6 @@ function Contact() {
                 </div>
 
                 {/* beginning of the contact form */}
-
                 <form>
                     <input
                     type="text"

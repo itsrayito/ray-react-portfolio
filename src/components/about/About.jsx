@@ -1,7 +1,6 @@
 import React from "react";
 import "./about.css";
 import meAbout from "../../assets/me-about.jpeg";
-import { FaAward, FaUsers, FaTasks } from "react-icons/fa";
 
 function About() {
     return (
@@ -17,27 +16,7 @@ function About() {
                 </div>
 
                 <div className="about__content">
-                    <div className="about__cards">
-                        <article className="about__card">
-                            <icon className="about__icon">
-                                <FaAward />
-                            </icon>
-                            <h5>Experience</h5>
-                            <small>Current Student</small>
-                        </article>
-                        <article className="about__card">
-                            <icon className="about__icon">
-                                <FaUsers />
-                            </icon>
-                            <h5>Projects</h5>
-                            <small>Accomplished Works!</small>
-                        </article>
-                        <article className="about__card">
-                            <icon className="about__icon">
-                                <FaTasks />
-                            </icon>
-                        </article>
-                    </div>
+                   
                     <p>
                   <br></br>
                   <center>Hey Ya'll, and welcome to my portfolio! My name is Rayito Aguirre, or just call me Ray for short.<br></br>
