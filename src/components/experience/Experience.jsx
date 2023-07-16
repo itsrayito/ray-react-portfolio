@@ -10,8 +10,10 @@ function Experience() {
 
         {/* ---------- beginning of front-end card ----------- */}
         <div className="container experience__container">
+            <center></center>
             <div className="experience__frontend">
                 <h3>Front-End Development</h3>
+
                 <div className="experience__content">
                     <article className="experience__details">
                         <BsCheck2Circle className="experience__details-icon" />
@@ -71,10 +73,12 @@ function Experience() {
                             </div>
                         </article>
                     </div>
+                    </div>
                     {/* ---------- begginning of back-end card ----------- */}
                     <div className="experience__backend">
-                    <h3>Back-End Development</h3>
+                        <center></center>
                     <div className="experience__content">
+                    <h3>Back-End Development</h3>
                         <article className="experience__details">
                             <BsCheck2Circle className="experience__details-icon"/>
                             <div>
@@ -134,8 +138,8 @@ function Experience() {
                         </div>
                     </div>
                 </div>
-        </div>
-    </section>
+                </section>
+
     );
 }
 
