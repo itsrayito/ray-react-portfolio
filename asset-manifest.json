@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ray-react-portfolio/static/css/main.e99485bd.css",
+    "main.js": "/ray-react-portfolio/static/js/main.0bf7f257.js",
+    "static/media/marvel.png": "/ray-react-portfolio/static/media/marvel.f1e7f25c350cb0716ad0.png",
+    "static/media/oasis.png": "/ray-react-portfolio/static/media/oasis.fa3c474a1382a10aeedb.png",
+    "static/media/rayito.png": "/ray-react-portfolio/static/media/rayito.c2815fe66c560da97431.png",
+    "static/media/weather.png": "/ray-react-portfolio/static/media/weather.27098d0c5176580283b4.png",
+    "static/media/empty scheduler.png": "/ray-react-portfolio/static/media/empty scheduler.70eafba1ce609f94f192.png",
+    "static/media/note-taker.png": "/ray-react-portfolio/static/media/note-taker.65d54a5d45def57d9748.png",
+    "static/media/text-editor.png": "/ray-react-portfolio/static/media/text-editor.2785665c167717d89930.png",
+    "static/media/me-about.jpeg": "/ray-react-portfolio/static/media/me-about.40ca462ae8372cdbe817.jpeg",
+    "static/media/RAresume.pdf": "/ray-react-portfolio/static/media/RAresume.f1446d92f992621f2e86.pdf",
+    "index.html": "/ray-react-portfolio/index.html",
+    "main.e99485bd.css.map": "/ray-react-portfolio/static/css/main.e99485bd.css.map",
+    "main.0bf7f257.js.map": "/ray-react-portfolio/static/js/main.0bf7f257.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e99485bd.css",
+    "static/js/main.0bf7f257.js"
+  ]
+}
