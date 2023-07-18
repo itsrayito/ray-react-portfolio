@@ -2,6 +2,7 @@
 
 - [Description](#description)
 - [Usage](#usage)
+- [Screenshot](#screenshot)
 - [Contributions](#contributions)
 - [License](#license)
 - [Questions](#questions)
@@ -13,6 +14,9 @@ Personal Portfolio made with React to showcase my accomplished works, describe a
 
 # Usage
 I used various elements to accomplish my portfolio, those were HTML, CSS, React, Javascript, Jest, JSX, Node.js, Bootstrap, & much more.
+
+# Screenshot 
+![Alt text](src/assets/portfoliopreview.png)
 
 # Contributions
 There is no need for nay contributions at this moment.
